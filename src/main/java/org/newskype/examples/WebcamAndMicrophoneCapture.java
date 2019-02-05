@@ -1,4 +1,4 @@
-package org.newskype.capture;
+package org.newskype.examples;
 
 import org.bytedeco.javacpp.opencv_core;
 import org.bytedeco.javacv.CanvasFrame;

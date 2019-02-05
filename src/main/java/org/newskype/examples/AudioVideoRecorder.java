@@ -1,4 +1,4 @@
-package org.newskype.recorder;
+package org.newskype.examples;
 
 import java.io.File;
 import java.nio.ByteBuffer;
@@ -164,7 +164,7 @@ public class AudioVideoRecorder {
         // A really nice hardware accelerated component for our preview...
         CanvasFrame cFrame = new CanvasFrame("Capture Preview", CanvasFrame.getDefaultGamma() / grabber.getGamma());
 
-        Frame capturedFrame = null;
+        Frame capturedFrame;
 
         // While we are capturing...
         while ((capturedFrame = grabber.grab()) != null) {
